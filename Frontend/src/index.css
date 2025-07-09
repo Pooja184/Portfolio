@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+p,button {
+  font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar, .button {
+  font-family: 'Poppins', sans-serif;
+}
+
