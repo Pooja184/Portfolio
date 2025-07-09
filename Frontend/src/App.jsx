@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div className='px-[25px] md:px-[60px] bg-[rgb(33,35,33)]'>
+    <div className='px-[25px] py-[20px] md:px-[60px] bg-[rgb(33,35,33)]'>
    <ToastContainer/>
      <Navbar/>
      <Routes>
