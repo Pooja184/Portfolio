@@ -4,13 +4,15 @@ import {Routes,Route} from 'react-router-dom'
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 
+
 const App = () => {
   return (
-    <div className='px-[25px] py-[20px] md:px-[60px] bg-[rgb(33,35,33)]'>
+    <div>
    <ToastContainer/>
      <Navbar/>
      <Routes>
         <Route path='/' element={<Home/>}/>
+
      </Routes>
     </div>
   )

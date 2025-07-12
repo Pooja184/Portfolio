@@ -6,7 +6,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div className="w-full h-20 flex justify-between items-center px-4 text-white relative ">
+    <div  className="bg-[rgb(33,35,33)] w-full h-20 flex justify-between items-center px-[25px] md:px-[60px] pt-[25px] text-white relative ">
       {/* Logo */}
       <div className="text-[30px] font-semibold font-playfair">Pooja.</div>
 
@@ -41,6 +41,8 @@ const Navbar = () => {
           <div className="flex justify-end">
             <FaTimes className="text-xl cursor-pointer" onClick={() => setVisible(false)} />
           </div>
+          <NavLink to="/" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Home</NavLink>
+          
           <NavLink to="/about" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">About</NavLink>
           <NavLink to="/services" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Services</NavLink>
           <NavLink to="/journal" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Journal</NavLink>
