@@ -1,0 +1,19 @@
+import React from "react";
+
+const Consultation = () => {
+  return (
+    <div className="bg-[#232823] text-[#F1EDE3] py-20 px-4 flex flex-col items-center text-center font-inter">
+      <h2 className="text-[36px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-playfair font-semibold mb-6 leading-tight">
+        Get started with a <br /> consultation today.
+      </h2>
+      <p className="max-w-4xl text-xl/8 md:text-2xl/9 text-[#E4E0D5] mb-10">
+        If you're planning a website or project and need help with design or development, feel free to reach out. We can discuss your ideas, what you’re looking for, and how I can help. I'm happy to guide you through the process.
+      </p>
+      <button className="mt-4 px-12 py-5 bg-[#ea8f10] text-black font-medium rounded hover:bg-[#ff9f2a] transition">
+            Let's Work Together
+          </button>
+    </div>
+  );
+};
+
+export default Consultation;

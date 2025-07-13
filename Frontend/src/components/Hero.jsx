@@ -10,10 +10,10 @@ const Hero = ({scrollToRef}) => {
   };
   return (
     // bg-[#121412]
-    <div className="  flex flex-col-reverse md:flex-row items-center justify-between px-6 pb-4 mt-12  md:py-20 text-white font-inter">
+    <div className="  flex flex-col-reverse md:flex-row items-center justify-between md:px-6 md:pb-4 md:mt-12  md:py-20 text-white font-inter">
       {/* Left Content */}
       <motion.div
-        className="w-full md:w-1/2"
+        className="w-full md:w-1/2 px-6 pb-4 "
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -56,6 +56,7 @@ const Hero = ({scrollToRef}) => {
           </div>
         </div>
       </motion.div>
+      <hr />
     </div>
   );
 };
