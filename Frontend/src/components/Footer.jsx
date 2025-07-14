@@ -11,8 +11,8 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20">
         {/* Site Links */}
         <div>
-          <h2 className="text-2xl font-bold text-[#F1EDE3] mb-4">Site Links</h2>
-          <ul className="space-y-2 text-gray-300 text-sm">
+          <h2 className=" font-bold text-[#F1EDE3] mb-4 text-xl/8 md:text-2xl/9">Site Links</h2>
+          <ul className="space-y-2 text-gray-300 text-base/6 md:text-lg/8">
             <li>Home</li>
             <li>About</li>
             <li>Services</li>
@@ -22,16 +22,16 @@ const Footer = () => {
 
         {/* Newsletter */}
         <div className="md:max-w-md">
-          <h2 className="text-2xl font-bold text-[#F1EDE3] mb-4">Newsletter</h2>
-          <p className="text-sm text-gray-400 mb-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ratione dignissimos.
+          <h2 className="text-xl/8 md:text-2xl/9 font-bold text-[#F1EDE3] mb-4">Newsletter</h2>
+          <p className=" text-gray-400 mb-4 text-base/5 md:text-lg/7">
+            Like what you see? Let’s stay connected. Get my latest work and ideas in your inbox.
           </p>
           <input
             type="email"
             placeholder="Your Email Address"
             className="w-full p-3 rounded-sm bg-[#1e1e1e] text-gray-300 placeholder:text-gray-400 outline-none mb-3"
           />
-          <button className="w-full bg-[#F59E0B] hover:bg-[#f7ad34] text-black font-semibold py-3 rounded-sm">
+          <button className="w-full  bg-[#ea8f10] hover:bg-[#f7ad34] text-black font-semibold py-3 rounded-sm">
             Subscribe
           </button>
         </div>
