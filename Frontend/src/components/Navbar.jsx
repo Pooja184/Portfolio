@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="hidden md:flex w-1/2 justify-start items-center gap-6 text-[15px] font-inter">
       <NavLink to="/" className="text-[#B1B1AA] hover:text-white">Home</NavLink>
         <NavLink to="/about" className="text-[#B1B1AA] hover:text-white">About</NavLink>
-        <NavLink to="/journal" className="text-[#B1B1AA] hover:text-white">Projects</NavLink>
+        <NavLink to="/projects" className="text-[#B1B1AA] hover:text-white">Projects</NavLink>
         <NavLink to="/contact" className="text-[#B1B1AA] hover:text-white">Contact</NavLink>
       </div>
 
