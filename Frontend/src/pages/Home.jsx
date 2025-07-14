@@ -9,7 +9,7 @@ const Home = () => {
   const briefAboutRef = useRef(null);
   return (
     <div>
-      <div className="bg-[#232823]  py-[20px] md:px-[60px]">
+      <div className="bg-[#232823]  py-[20px]  md:px-[60px]">
         <Hero scrollToRef={briefAboutRef} />
       </div>
       <div ref={briefAboutRef} className="bg-[#232823] px-[25px] py-[20px] md:px-[60px]">

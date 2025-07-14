@@ -10,10 +10,10 @@ const Hero = ({scrollToRef}) => {
   };
   return (
     // bg-[#121412]
-    <div className="  flex flex-col-reverse md:flex-row items-center justify-between md:px-6 md:pb-4 md:mt-12  md:py-20 text-white font-inter">
+    <div className="  flex flex-col-reverse md:flex-row items-center justify-between  md:pb-4 md:mt-12  md:py-20 text-white font-inter">
       {/* Left Content */}
       <motion.div
-        className="w-full md:w-1/2 px-6 pb-4 "
+        className="w-full md:w-1/2  mb-10 sm:mb-0 px-[25px] md:px-0 pb-4 "
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -37,16 +37,16 @@ const Hero = ({scrollToRef}) => {
 
       {/* Right Image */}
       <motion.div
-        className="w-full md:w-[450px] flex justify-center mb-10 sm:mb-0"
+        className="w-full md:w-1/2  mb-10 sm:mb-0"
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="relative">
+        <div className="relative w-full m-0 flex justify-end">
           <img
             src={CoverImg}
             alt="Monica"
-            className="w-full md:w-[450px] h-[400px] sm:h-[500px]  object-cover   rounded-sm"
+            className="w-full md:w-[450px] h-[400px] sm:h-[500px]  object-cover rounded-sm"
           />
           {/* Optional decorative lines */}
           <div className="absolute right-[-30px] bottom-[40px] hidden sm:block">
