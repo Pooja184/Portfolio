@@ -43,7 +43,7 @@ const Navbar = () => {
           <NavLink to="/" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Home</NavLink>
 
           <NavLink to="/about" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">About</NavLink>
-          <NavLink to="/journal" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Projects</NavLink>
+          <NavLink to="/projects" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Projects</NavLink>
           <NavLink to="/contact" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Contact</NavLink>
           <button className="mt-4 px-6 py-3 bg-[#ea8f10] text-black font-medium rounded hover:bg-[#ff9f2a] transition">
             Let's Work Together
