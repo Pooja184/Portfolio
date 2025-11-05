@@ -14,7 +14,7 @@ const Experties = () => {
         </h1>
         <div className="max-h-32 flex-row justify-start w-full mt-10 hidden md:block">
           <button
-            onClick={() => navigate("/about")}
+            onClick={() => navigate("/projects")}
             className="mt-4 px-12 w-[100%] sm:w-[75%] py-4 border-2 hover:bg-black hover:text-white border-black text-black font-medium rounded sm:text-lg transition duration-300 ease-in-out"
           >
             Explore My Work & Projects
