@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
-
+  const navigate=useNavigate();
   return (
     <div  className="bg-[#232823] w-full h-20 flex justify-between items-center px-[25px] md:px-[60px] md:py-5 pt-[25px] md:pt-[35px] text-white relative ">
       {/* Logo */}
@@ -20,7 +20,7 @@ const Navbar = () => {
 
       {/* CTA Button (hidden on small screens) */}
       <div className="hidden md:flex justify-end w-1/3">
-        <button className="px-8 py-4 font-medium text-[18px] bg-[#ea8f10] text-black rounded-md font-inter">
+        <button onClick={()=>navigate("/contact")} className="px-8 py-4 font-medium text-[18px] bg-[#ea8f10] text-black rounded-md font-inter">
           Let's Work Together
         </button>
       </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <NavLink to="/about" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">About</NavLink>
           <NavLink to="/projects" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Projects</NavLink>
           <NavLink to="/contact" onClick={() => setVisible(false)} className="text-[#B1B1AA] hover:text-white py-2">Contact</NavLink>
-          <button className="mt-4 px-6 py-3 bg-[#ea8f10] text-black font-medium rounded hover:bg-[#ff9f2a] transition">
+          <button onClick={()=>navigate("/contact")} className="mt-4 px-6 py-3 bg-[#ea8f10] text-black font-medium rounded hover:bg-[#ff9f2a] transition">
             Let's Work Together
           </button>
         </div>
