@@ -14,12 +14,12 @@ const About = () => {
     {
       title: "CONSISTENCY",
       description:
-        "I’ve learned that small, steady efforts matter. Writing clean code, keeping files organized, and following patterns might seem boring — but they really pay off long term.",
+        "I’ve learned that small, steady efforts matter. Writing clean code, keeping files organized, and following patterns might seem boring but they really pay off long term.",
     },
     {
       title: "LEARNING",
       description:
-        "I never stop learning. From struggling with my first JavaScript loop to building full-stack apps, each step taught me something valuable — and I’m still growing.",
+        "I never stop learning. From struggling with my first JavaScript loop to building full-stack apps, each step taught me something valuable and I’m still growing.",
     },
     {
       title: "COMMUNICATION",
@@ -29,12 +29,12 @@ const About = () => {
     {
       title: "RESILIENCE",
       description:
-        "Some bugs take hours. Some fixes break three other things. But I’ve realized — that’s just part of the journey. I’ve become more patient, more focused, and more confident.",
+        "Some bugs take hours. Some fixes break three other things. But I’ve realized that’s just part of the journey. I’ve become more patient, more focused, and more confident.",
     },
     {
       title: "USER-FIRST",
       description:
-        "I always ask: “Would this make sense to a user?” I believe great interfaces aren’t about showing off skills — they’re about making things easy and enjoyable for real people.",
+        "I always ask: “Would this make sense to a user?” I believe great interfaces aren’t about showing off skills they’re about making things easy and enjoyable for real people.",
     },
   ];
 
@@ -68,15 +68,28 @@ const About = () => {
 
   ]
 
+  const skills = [
+    {
+      title: "FRONTNED",
+      description:
+        "HTML, CSS, Javascript,Typescript, React,Redux, Tailwind, Bootstrap, Socket.io",
+    },
+    {
+      title: "BACKEND",
+      description:
+        "Node.js, Express.js, MongoDB, Mongoose, Prisma, Socket.io, Multer, JWT",
+    },
+    {
+      title: "Tools & Platforms",
+      description:
+        "Postman, GitHub, Vercel, Render, Cloudinary",
+    },
+  ];
+
   return (
     <div>
       <HeroPage text1={"About"} text2={"Hi, I'am Pooja"} />
-      <Second
-        heading={"Building. Breaking. Learning. Growing .  one line daily."}
-        description={
-          "I’m a developer who learns by doing — every project, every challenge, and every late-night bug fix helps me grow and get better at what I love. From designing smooth frontends to building solid backend systems, I enjoy working across the full stack. I mostly work with the MERN stack and take pride in writing clean, efficient, and maintainable code."
-        }
-      />
+      <Third heading="Technologies i've work with" items={skills} />
       <First heading={"How I Got Here"} items={descriptions}/>
       <Third heading="My Values & Beliefs" items={beliefs} />
       <First heading={"Why Work With Me"} items={work}/>
