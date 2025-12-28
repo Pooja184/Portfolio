@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-const ContactForm = () => {
+const ContactForm1 = () => {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("");
@@ -110,4 +110,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default ContactForm1;

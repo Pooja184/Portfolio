@@ -1,6 +1,6 @@
 import React from "react";
 import HeroPage from "../components/HeroPage";
-import ContactForm from "../components/contactForm";
+import ContactForm from "../components/ContactForm1";
 
 const Contact = () => {
   return (
