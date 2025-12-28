@@ -41,7 +41,7 @@ const BriefAbout = () => {
       <div className="w-full md:w-1/2  flex justify-center mb-10 md:mb-0">
         <div className="relative text-xl/8 md:text-2xl/9">
           <p>
-            Hi, I’m Pooja — a full stack web developer who enjoys building
+            Hi, I’m Pooja. A full stack web developer who enjoys building
             clean, responsive, and user-friendly websites. I work mainly with
             the MERN stack (MongoDB, Express.js, React, and Node.js) and love
             turning ideas into real, working web applications. Whether it’s
