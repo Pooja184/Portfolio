@@ -22,8 +22,7 @@ const Hero = ({scrollToRef}) => {
           Hello, I'm Pooja
         </p>
         <h1 className="text-[36px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-playfair leading-tight text-[#F1EDE3]">
-          I bring ideas to life with clean code, solid backends, and intuitive
-          interfaces.
+          I create reliable web applications with a focus on usability and performance.
         </h1>
 
         {/* Scroll Icon */}
