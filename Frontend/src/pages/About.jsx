@@ -72,7 +72,7 @@ const About = () => {
     {
       title: "FRONTNED",
       description:
-        "HTML, CSS, Javascript,Typescript, React,Redux, Tailwind, Bootstrap, Socket.io",
+        "HTML, CSS, Javascript, Typescript, React, Redux, Tailwind, Bootstrap, Socket.io",
     },
     {
       title: "BACKEND",
