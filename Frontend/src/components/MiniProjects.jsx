@@ -40,7 +40,7 @@ const MiniProjects = () => {
           }
           image={quizGame}
           liveUrl={
-            "https://quiz-game-a0334euss-pooja-bhambids-projects.vercel.app/"
+            "https://quiz-game-alpha-eight.vercel.app/"
           }
         />
         
