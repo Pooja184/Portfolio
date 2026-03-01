@@ -70,7 +70,7 @@ const About = () => {
 
   const skills = [
     {
-      title: "FRONTNED",
+      title: "FRONTEND",
       description:
         "HTML, CSS, Javascript, Typescript, React, Redux, Tailwind, Bootstrap, Socket.io",
     },
