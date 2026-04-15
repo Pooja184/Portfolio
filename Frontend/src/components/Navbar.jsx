@@ -6,7 +6,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(false);
   const navigate=useNavigate();
   return (
-    <div  className="bg-[#232823] w-full h-20 flex justify-between items-center px-[25px] md:px-[60px] md:py-5 pt-[25px] md:pt-[35px] text-white relative ">
+    <div  className="bg-[#232823] w-full min-h-20 flex justify-between items-center px-[25px] py-4 md:px-[60px] md:py-5 text-white relative ">
       {/* Logo */}
       <div className="text-[30px] font-semibold font-playfair">Pooja.</div>
 
