@@ -72,12 +72,12 @@ const About = () => {
     {
       title: "FRONTEND",
       description:
-        "HTML, CSS, Javascript, Typescript, React, Redux, Tailwind, Bootstrap, Socket.io",
+        "HTML, CSS, Javascript, Typescript, React, Redux, Tailwind, Bootstrap, Socket.io Shadcn.",
     },
     {
       title: "BACKEND",
       description:
-        "Node.js, Express.js, MongoDB, Mongoose, Prisma, Socket.io, Multer, JWT",
+        "Node.js, Express.js, MongoDB, Mongoose,SQL,Postgresql,Sequelize, Prisma, Socket.io, Multer, JWT,",
     },
     {
       title: "Tools & Platforms",
