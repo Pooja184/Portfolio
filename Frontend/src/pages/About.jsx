@@ -72,17 +72,17 @@ const About = () => {
     {
       title: "FRONTEND",
       description:
-        "HTML, CSS, Javascript, Typescript, React, Redux, Tailwind, Bootstrap, Socket.io Shadcn.",
+        "HTML, CSS, Javascript, Typescript, React, Redux, Tailwind, Bootstrap, Socket.io, Shadcn.",
     },
     {
       title: "BACKEND",
       description:
-        "Node.js, Express.js, MongoDB, Mongoose,SQL,Postgresql,Sequelize, Prisma, Socket.io, Multer, JWT,",
+        "Node.js, Express.js, MongoDB, Mongoose,SQL,Postgresql,Sequelize, Prisma, Socket.io, Multer, JWT.",
     },
     {
       title: "Tools & Platforms",
       description:
-        "Postman, GitHub, Vercel, Render, Cloudinary",
+        "Postman, GitHub, Vercel, Render, Cloudinary.",
     },
   ];
 
