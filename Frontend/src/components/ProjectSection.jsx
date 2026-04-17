@@ -10,9 +10,14 @@ const ProjectSection = ({ imgSrc, description,link }) => {
           alt="Section Visual"
           className="w-full max-w-md rounded-2xl shadow-lg object-cover"
         />
-        <div className="mt-4 px-2 py-2 md:px-6 w-1/3 md:py-2 border-2 hover:bg-black hover:text-white border-black text-black font-medium rounded sm:text-lg transition duration-300 ease-in-out">
-            <a href={link}>Click here to view</a>
-        </div>
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-4 inline-flex w-fit items-center justify-center border-2 border-black px-5 py-3 text-sm font-medium text-black transition duration-300 ease-in-out hover:bg-black hover:text-white sm:text-lg md:px-6 md:py-2"
+        >
+          Click here to view
+        </a>
       </div>
 
       {/* Description Section */}
